@@ -1,0 +1,14 @@
+﻿{
+  "RemoteRoot": "https://sbz12885stg.file.core.windows.net/mindaro/default/service1",
+  "Files": {
+    "/Users/johnstallo/repos/myapp/service1/.synclog": "2017-10-02T21:10:36+00:00",
+    "/Users/johnstallo/repos/myapp/service1/contextful.js": "2017-10-02T17:34:54+00:00",
+    "/Users/johnstallo/repos/myapp/service1/Dockerfile": "2017-09-27T23:11:19+00:00",
+    "/Users/johnstallo/repos/myapp/service1/package.json": "2017-09-27T23:24:28+00:00",
+    "/Users/johnstallo/repos/myapp/service1/server.js": "2017-09-30T20:55:43+00:00",
+    "/Users/johnstallo/repos/myapp/service1/.vscode/debugSettings.json": "2017-10-02T17:32:10+00:00",
+    "/Users/johnstallo/repos/myapp/service1/.vscode/launch.json": "2017-10-02T17:32:10+00:00",
+    "/Users/johnstallo/repos/myapp/service1/.vscode/tasks.json": "2017-10-02T17:32:10+00:00"
+  },
+  "SyncTime": "2017-10-02T14:28:32.148066-07:00"
+}

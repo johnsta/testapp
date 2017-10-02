@@ -1,0 +1,10 @@
+{
+  "name": "service2",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.2.26",
+    "morgan": "^1.7.0",
+    "request": "^2.71.0"
+  }
+}

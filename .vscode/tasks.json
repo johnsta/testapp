@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "command": "azp",
+      "args": [
+        "debug",
+        "start"
+      ],
+      "taskName": "prepareDebug",
+      "options": {
+        "cwd": "${workspaceRoot}"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

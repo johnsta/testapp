@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "NodeJS Launch (Azp)",
+      "type": "node",
+      "request": "launch",
+      "protocol": "inspector",
+      "preLaunchTask": "prepareDebug",
+      "cwd": "${workspaceRoot}",
+      "port": 52739,
+      "address": "127.0.0.1",
+      "localRoot": "${workspaceRoot}",
+      "remoteRoot": "/app",
+      "runtimeExecutable": "azp",
+      "runtimeArgs": [
+        "pipe",
+        "start",
+        "node --debug-brk --debug=0.0.0.0:5858 --inspect --nolazy server.js"
+      ]
+    }
+  ]
+}

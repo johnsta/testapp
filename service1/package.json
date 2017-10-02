@@ -1,0 +1,7 @@
+{
+  "name": "service1",
+  "version": "0.1.0",
+  "dependencies": {
+    "request": "^2.71.0"
+  }
+}

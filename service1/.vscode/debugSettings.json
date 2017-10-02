@@ -1,0 +1,16 @@
+{
+  "name": "NodeJS",
+  "supportedPlatforms": ["linux", "windows", "osx"],
+  "portTransport": 5858,
+  "localPort": 52760,
+  "commands": [
+  ],
+  "container": {
+    "remoteDebugEnabled": true,
+    "entrypoint": "[\"/bin/bash\", \"-c\", \"sleep infinity\"]",
+    "workdir": "/app",
+    "containerPath": "/app",
+    "syncFrom": "",
+    "syncIgnore": "node_modules"
+  }
+}
