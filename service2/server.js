@@ -8,11 +8,15 @@ app.use(morgan("dev"));
 
 // application -------------------------------------------------------------
 app.get('/', function (req, response) {
+    response.send("hello from service 2");
+});
+
+app.get('/reserve', function (req, response) {
     request({
-        uri: 'http://service3',
+        uri: 'http://service3/lookupitem',
         headers: contextful.from(req)
     }, function (error, res, body) {
-        response.send("Hello from service 2 and " + body);
+        response.send("Making reservation and " + body);
     });
 
     // request.get('http://service3', function(err, res, body) {

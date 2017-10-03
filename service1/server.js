@@ -4,8 +4,8 @@ var contextful = require('./contextful');
 var request = require('request');
 
 var server = http.createServer(function (req, response) {
-    var service2Url = "http://service2";
-    if (getRandomNumber(0, 1) > 0.7) {
+    var service2Url = "http://service2/reserve";
+    if (getRandomNumber(0, 1) > 0.9) {
         service2Url = "http://service2/slowapi";
     }
 
@@ -18,7 +18,7 @@ var server = http.createServer(function (req, response) {
 
         // Call service4
         request({
-            uri: 'http://service4',
+            uri: 'http://service4/sendconfirmation',
             headers: contextful.from(req)
         }, function(error, res, body) {
             var service4Response = body;

@@ -1,10 +1,10 @@
 ﻿{
   "RemoteRoot": "https://sbz12885stg.file.core.windows.net/mindaro/default/service4",
   "Files": {
-    "/Users/johnstallo/repos/myapp/service4/.synclog": "2017-09-27T23:32:17+00:00",
-    "/Users/johnstallo/repos/myapp/service4/Dockerfile": "2017-09-27T23:31:38+00:00",
-    "/Users/johnstallo/repos/myapp/service4/package.json": "2017-09-27T23:31:38+00:00",
-    "/Users/johnstallo/repos/myapp/service4/server.js": "2017-09-27T23:32:12+00:00"
+    "/Users/johnstallo/repos/testapp/service4/.synclog": "2017-10-02T22:47:25+00:00",
+    "/Users/johnstallo/repos/testapp/service4/Dockerfile": "2017-09-27T23:31:38+00:00",
+    "/Users/johnstallo/repos/testapp/service4/package.json": "2017-10-02T22:44:10+00:00",
+    "/Users/johnstallo/repos/testapp/service4/server.js": "2017-10-02T22:48:07+00:00"
   },
-  "SyncTime": "2017-09-29T14:26:39.725788-07:00"
+  "SyncTime": "2017-10-02T15:48:08.38619-07:00"
 }

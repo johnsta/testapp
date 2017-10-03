@@ -1,10 +1,9 @@
 ﻿{
   "RemoteRoot": "https://sbz12885stg.file.core.windows.net/mindaro/default/service3",
   "Files": {
-    "/Users/johnstallo/repos/myapp/service3/.synclog": "2017-09-27T23:36:34+00:00",
-    "/Users/johnstallo/repos/myapp/service3/Dockerfile": "2017-09-27T23:11:29+00:00",
-    "/Users/johnstallo/repos/myapp/service3/package.json": "2017-09-27T23:11:29+00:00",
-    "/Users/johnstallo/repos/myapp/service3/server.js": "2017-09-27T23:36:09+00:00"
+    "/Users/johnstallo/repos/testapp/service3/Dockerfile": "2017-10-02T22:51:10+00:00",
+    "/Users/johnstallo/repos/testapp/service3/package.json": "2017-10-02T22:51:30+00:00",
+    "/Users/johnstallo/repos/testapp/service3/server.js": "2017-10-02T22:52:08+00:00"
   },
-  "SyncTime": "2017-09-29T14:26:41.029124-07:00"
+  "SyncTime": "2017-10-02T15:52:29.522597-07:00"
 }
