@@ -1,5 +1,4 @@
 var http = require('http');
-// var req = require('request');
 var contextful = require('./contextful');
 var request = require('request');
 
@@ -27,16 +26,6 @@ var server = http.createServer(function (req, response) {
             response.end("HELLO from service 1 and " + service2Response + " and " + service4Response + " \n");
         });
     });
-
-    // req.get(service2Url, function(err, res, body) {
-    //     var service2Response = body;
-    //     req.get('http://service4', function(err, res, body) {
-    //         var service4Response = body;
-    //         console.log("Request " + request.httpVersion + " " + request.method + " " + request.url);
-    //         response.writeHead(200, { "Content-Type": "text/plain" });
-    //         response.end("Hello from service 1 and " + service2Response + " and " + service4Response + " \n");
-    //     });
-    // });
 });
 
 server.listen(80, function () {
