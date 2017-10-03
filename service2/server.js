@@ -16,6 +16,11 @@ app.get('/reserve', function (req, response) {
         uri: 'http://service3/lookupitem',
         headers: contextful.from(req)
     }, function (error, res, body) {
+        if (res.statusCode != 200) {
+            console.log('aaa');
+            response.status(500).send("Sorry, something went wrong");
+            return;
+        }
         response.send("Making reservation and " + body);
     });
 

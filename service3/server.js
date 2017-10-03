@@ -9,8 +9,9 @@ app.get('/', function (req, response) {
     response.send("Hello from service 3");
 });
 
-app.get('/lookupitem', function (req, response) {
-    response.send("item found");
+app.get('/lookupitem', function (req, res) {
+    // response.send("item found");
+    res.status(403).send('something broke');
 });
 
 var port = 80;
